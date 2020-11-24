@@ -1,5 +1,5 @@
 {
-    "name": "dansmaculotte/laravel-mail-template",
+    "name": "shakatakas/laravel-mail-template",
     "description": "A mail template driver to send emails with",
     "version": "2.0.0",
     "keywords": [
