@@ -1,5 +1,5 @@
+# Fork for fix install on laravel 8!!!!
 # A laravel mail template driver to send emails with
-
 [![Latest Version](https://img.shields.io/packagist/v/DansMaCulotte/laravel-mail-template.svg?style=flat-square)](https://packagist.org/packages/dansmaculotte/laravel-mail-template)
 [![Total Downloads](https://img.shields.io/packagist/dt/DansMaCulotte/laravel-mail-template.svg?style=flat-square)](https://packagist.org/packages/dansmaculotte/laravel-mail-template)
 [![Build Status](https://img.shields.io/travis/DansMaCulotte/laravel-mail-template/master.svg?style=flat-square)](https://travis-ci.org/dansmaculotte/laravel-mail-template)
@@ -22,7 +22,7 @@ There is also and `log` and `null` driver for testing and debug purpose.
 
 ### Requirements
 
-- PHP 7.2
+- PHP 7.4
 
 You can install the package via composer:
 
@@ -61,7 +61,7 @@ composer require sendgrid/sendgrid
 - Mailgun
 
 ```bash
-composer require mailgun/mailgun-php
+ composer require mailgun/mailgun-php kriswallsmith/buzz nyholm/psr7
 ```
 
 - SendinBlue
